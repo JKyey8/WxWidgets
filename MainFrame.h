@@ -10,6 +10,6 @@ public:
 private:
 	void OnButtonClicked(wxCommandEvent& evt);
 	void OnTextChanged(wxCommandEvent& evt);
-	wxDECLARE_EVENT_TABLE();
+	
 
 };
