@@ -10,6 +10,10 @@ public:
 private:
 	void OnButtonClicked(wxCommandEvent& evt);
 	void OnTextChanged(wxCommandEvent& evt);
+	wxButton* button;
+	wxPanel* panel;
+	wxStaticText* messageField;
+	wxListBox* ListBox;
 	
 
 };
